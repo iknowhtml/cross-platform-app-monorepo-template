@@ -1,8 +1,10 @@
+'use client';
+
 import { A, H1, P, Text, TextLink } from 'shared/ui/typography';
 import { Row } from 'shared/ui/layout';
 import { View } from 'shared/ui/view';
 
-import { MotiLink } from 'solito/moti';
+import { MotiLink } from 'solito/moti/app';
 
 export function HomeScreen() {
   return (
