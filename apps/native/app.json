@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "web": {
+      "bundler": "metro"
+    },
+    "ios": {
+      "bundleIdentifier": "com.securAF"
+    },
+    "android": {
+      "package": "com.securAF"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@expo/next-adapter": "6.0.0",
+    "shared": "workspace:*",
+    "next": "^14.2.7",
+    "raf": "^3.4.1",
+    "react": "18.3.1",
+    "react-native": "0.75.2",
+    "setimmediate": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint-config-next": "14.2.7",
+    "nativewind": "^4.0.1",
+    "postcss": "^8.4.44",
+    "tailwindcss": "^3.4.10"
+  }
+}

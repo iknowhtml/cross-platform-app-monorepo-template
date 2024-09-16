@@ -1,0 +1,4 @@
+[allowlist]
+    description = "ignore #nosec lines"
+    regexTarget = "line"
+    regexes = ['''#nosec''']
