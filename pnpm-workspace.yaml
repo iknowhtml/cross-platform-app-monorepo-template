@@ -1,2 +1,4 @@
 packages:
-  - "apps/**"
+  - "native"
+  - "web"
+  - "shared"
