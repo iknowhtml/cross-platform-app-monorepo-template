@@ -97,7 +97,7 @@ cd apps/native
 
 #run android dev environment
 pnpm android
-#if you run into an issue with the JDK path run the command below
+#if you run into an issue with the Android path run the command below
 pnpm setup:android
 
 # set up/run ios dev environent
