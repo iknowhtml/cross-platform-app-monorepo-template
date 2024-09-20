@@ -4,7 +4,7 @@
     "noUncheckedIndexedAccess": true,
     "baseUrl": "./",
     "paths": {
-      "shared/*": ["apps/shared/*"]
+      "shared/*": ["shared/*"]
     },
     "jsx": "react-jsx"
   },
