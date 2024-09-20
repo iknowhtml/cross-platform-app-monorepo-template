@@ -95,12 +95,13 @@ cd apps/native
 # set up android
 # this only needs to be ran once
 
-pnpm setup:android
 #run android dev environment
-pnpm dev:android
+pnpm android
+#if you run into an issue with the JDK path run the command below
+pnpm setup:android
 
 # set up/run ios dev environent
-pnpm dev:ios
+pnpm ios
 
 # starts the mobile application
 pnpm dev
