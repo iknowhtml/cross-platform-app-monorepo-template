@@ -4,10 +4,10 @@
       "bundler": "metro"
     },
     "ios": {
-      "bundleIdentifier": "com.securAF"
+      "bundleIdentifier": "com.example"
     },
     "android": {
-      "package": "com.securAF"
+      "package": "com.example"
     }
   }
 }
