@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup:android": "sh scripts/android/setup.sh",
-    "dev:web": "expo start --web",
-    "dev:android": "pnpm android",
-    "dev:ios": "pnpm ios",
+    "web": "expo start --web",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
