@@ -92,17 +92,12 @@ pnpm dev
 ```sh
 cd apps/native
 
-# set up android
-# this only needs to be ran once
-
-#run android dev environment
-pnpm android
-#if you run into an issue with the Android path run the command below
+# set up android -- this only needs to be ran once
 pnpm setup:android
 
 # set up/run ios dev environent
-pnpm ios
+pnpm setip:ios
 
-# starts the mobile application
+# starts native app development server
 pnpm dev
 ```
