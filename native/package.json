@@ -4,8 +4,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "dev": "expo start",
     "setup:android": "sh scripts/android/setup.sh",
-    "web": "expo start --web",
+    "setup:ios": "sh scripts/ios/setup.sh",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
