@@ -8,7 +8,10 @@
     "setup:android": "sh scripts/android/setup.sh",
     "setup:ios": "sh scripts/ios/setup.sh",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "clean:android": "rm -rf android",
+    "clean:ios": "rm -rf ios",
+    "clean:apps": "pnpm clean:android && pnpm clean:ios"
   },
   "dependencies": {
     "eas-cli": "^12.3.0",
