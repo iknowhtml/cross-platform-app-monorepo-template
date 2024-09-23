@@ -1,0 +1,2 @@
+# Run ios
+pnpm ios
