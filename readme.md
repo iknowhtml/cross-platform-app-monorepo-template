@@ -60,6 +60,9 @@ brew install java
 sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 ```
 
+##### Create A Virtual Device
+Follow the instructions [here](https://developer.android.com/studio/run/managing-avds) to create an virtual device
+
 ### Clone Repository
 
 ```sh
@@ -93,10 +96,11 @@ pnpm dev
 cd apps/native
 
 # set up android -- this only needs to be ran once
+# note you must have your android emulator running before running the command before
 pnpm setup:android
 
 # set up/run ios dev environent
-pnpm setip:ios
+pnpm setup:ios
 
 # starts native app development server
 pnpm dev
