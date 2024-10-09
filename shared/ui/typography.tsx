@@ -20,7 +20,12 @@ export const P = (props: ComponentProps<typeof Text>) => (
  * Components can have defaultProps and styles
  */
 export const H1 = (props: ComponentProps<typeof Text>) => (
-  <Text {...props} className="text-3xl font-extrabold my-4" />
+  <Text
+    {...props}
+    className="text-3xl font-extrabold my-4"
+    role="heading"
+    aria-level={1}
+  />
 );
 
 /**
